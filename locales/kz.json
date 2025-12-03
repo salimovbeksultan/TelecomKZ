@@ -23,8 +23,8 @@
     { "title": "Өткізіп алған тапсырмаларды қайтару мүмкін емес", "subtitle": "" },
     { "title": "+10 ұпай", "subtitle": "әр шақырған көрші үшін ал" }
   ],
-  "first_card_image": "../assets/card-1-kz.png",
-  "final_card_image": "../assets/card-5-kz.png",
+  "first_card_image": "/TelecomKZ/assets/card-1-kz.png",
+  "final_card_image": "/TelecomKZ/assets/card-5-kz.png",
   "conditions_title": "Қатысу шарттары",
   "conditions": [
     "<strong>TelecomKz</strong> мобильді қосымшасындағы акцияға қатыс!",

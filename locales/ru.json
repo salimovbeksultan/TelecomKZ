@@ -23,8 +23,8 @@
     { "title": "Пропущенные задания нельзя вернуть", "subtitle": "" },
     { "title": "Получай <br /> +10 баллов", "subtitle": "за каждого приглашенного соседа!" }
   ],
-  "first_card_image": "../assets/card-1.png",
-  "final_card_image": "../assets/card-5.png",
+  "first_card_image": "/TelecomKZ/assets/card-1.png",
+  "final_card_image": "/TelecomKZ/assets/card-5.png",
   "conditions_title": "условия участия",
   "conditions": [
     "Участвуй в акции в мобильном приложении <strong>TelecomKz!<strong>",
