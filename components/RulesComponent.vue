@@ -2,6 +2,10 @@
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
+
+const getImgUrl = (imageName) => {
+  return new URL(`${imageName}`, import.meta.url).href
+}
 </script>
 
 <template>
@@ -17,7 +21,7 @@ const { t } = useI18n()
 
       <div class="cards-wrapper">
         <div class="card">
-          <img class="card-image" :src="t('first_card_image')" alt="card-1" />
+          <img class="card-image" :src="getImgUrl(t('first_card_image'))" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.0.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.0.subtitle')"></div>
@@ -45,7 +49,7 @@ const { t } = useI18n()
           </div>
         </div>
         <div class="card">
-          <img class="card-image" :src="t('final_card_image')" alt="card-1" />
+          <img class="card-image" :src="getImgUrl(t('final_card_image'))" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.4.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.4.subtitle')"></div>
