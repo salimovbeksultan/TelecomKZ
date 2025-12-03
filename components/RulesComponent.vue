@@ -4,7 +4,7 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const getImgUrl = (imageName) => {
-  return new URL(`${imageName}`, import.meta.url).href
+  return new URL(`../assets/${imageName}`, import.meta.url).href
 }
 </script>
 
