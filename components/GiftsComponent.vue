@@ -62,16 +62,16 @@
 }
 
 .eighth-gift {
-  top: 185vw;
-  z-index: 1;
-  right: -10vw;
+  top: 193vw;
+  z-index: 2;
+  right: -5vw;
   height: 16vw;
   width: 16vw;
 }
 
 .ninth-gift {
   top: 220vw;
-  z-index: 1;
+  z-index: 2;
   left: 0vw;
   height: 7vw;
   width: 7vw;
