@@ -6,7 +6,8 @@
   <img class="icon third-gift" alt="gift" src="../assets/gift-reversed.png" />
   <img class="icon fourth-gift" alt="gift" src="../assets/accessory-reversed.png" />
   <img class="icon fifth-gift" alt="gift" src="../assets/gift-reversed.png" />
-
+  <img class="icon sixth-gift" alt="gift" src="../assets/gift.png" />
+  <img class="icon seventh-gift" alt="gift" src="../assets/accessory.png" />
 </template>
 
 <style scoped>
@@ -50,6 +51,14 @@
   display: none;
 }
 
+.sixth-gift {
+  display: none;
+}
+
+.seventh-gift {
+  display: none;
+}
+
 .icon:hover {
   transform: scale(1.2) rotate(15deg);
 }
@@ -81,16 +90,17 @@
   }
 
   .third-gift {
-    top: 400vw;
-    height: 30vw;
-    width: 30vw;
-    left: -5vw;
+    top: 300vw;
+    height: 35.2vw;
+    width: 35.2vw;
+    left: -15vw;
   }
 
   .fourth-gift {
-    top: 480vw;
+    top: 420vw;
     height: 28vw;
     width: 28vw;
+    left: -10vw;
   }
 
   .fifth-gift {
@@ -99,6 +109,22 @@
     height: 16vw;
     width: 16vw;
     right: -6vw;
+  }
+
+  .sixth-gift {
+    display: block;
+    height: 31vw;
+    width: 31vw;
+    right: -10vw;
+    top: 450vw;
+  }
+
+  .seventh-gift {
+    display: block;
+    height: 16vw;
+    width: 16vw;
+    right: -5vw;
+    top: 355vw;
   }
 }
 </style>
