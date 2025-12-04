@@ -61,12 +61,20 @@
   display: none;
 }
 
-.eighth-gifth {
-  display: none;
+.eighth-gift {
+  top: 185vw;
+  z-index: 1;
+  right: -10vw;
+  height: 16vw;
+  width: 16vw;
 }
 
 .ninth-gift {
-  display: none;
+  top: 220vw;
+  z-index: 1;
+  left: 0vw;
+  height: 7vw;
+  width: 7vw;
 }
 
 .icon:hover {

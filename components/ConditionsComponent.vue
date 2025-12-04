@@ -54,7 +54,7 @@ const { t } = useI18n()
   width: 16vw;
   color: rgba(255, 255, 255, 1);
   height: 16vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 .conditions-item:nth-child(even) {
