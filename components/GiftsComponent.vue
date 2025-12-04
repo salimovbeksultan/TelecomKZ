@@ -8,6 +8,8 @@
   <img class="icon fifth-gift" alt="gift" src="../assets/gift-reversed.png" />
   <img class="icon sixth-gift" alt="gift" src="../assets/gift.png" />
   <img class="icon seventh-gift" alt="gift" src="../assets/accessory.png" />
+  <img class="icon eighth-gift" alt="gift" src="../assets/gift-reversed.png" />
+  <img class="icon ninth-gift" alt="gift" src="../assets/accessory.png" />
 </template>
 
 <style scoped>
@@ -56,6 +58,14 @@
 }
 
 .seventh-gift {
+  display: none;
+}
+
+.eighth-gifth {
+  display: none;
+}
+
+.ninth-gift {
   display: none;
 }
 
@@ -125,6 +135,24 @@
     width: 16vw;
     right: -5vw;
     top: 355vw;
+  }
+
+  .eighth-gift {
+    display: block;
+    z-index: 0;
+    width: 39vw;
+    height: 39vw;
+    top: 780vw;
+    right: -10vw;
+  }
+
+  .ninth-gift {
+    display: block;
+    z-index: 0;
+    width: 31.2vw;
+    height: 31.2vw;
+    top: 910vw;
+    left: -10vw;
   }
 }
 </style>
