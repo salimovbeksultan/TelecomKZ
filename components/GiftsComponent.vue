@@ -5,6 +5,8 @@
   <img class="icon second-gift" alt="gift" src="../assets/accessory.png" />
   <img class="icon third-gift" alt="gift" src="../assets/gift-reversed.png" />
   <img class="icon fourth-gift" alt="gift" src="../assets/accessory-reversed.png" />
+  <img class="icon fifth-gift" alt="gift" src="../assets/gift-reversed.png" />
+
 </template>
 
 <style scoped>
@@ -44,6 +46,10 @@
   top: 100vw;
 }
 
+.fifth-gift {
+  display: none;
+}
+
 .icon:hover {
   transform: scale(1.2) rotate(15deg);
 }
@@ -64,13 +70,14 @@
     top: 115vw;
     height: 35vw;
     width: 35vw;
+    right: -14vw;
   }
 
   .second-gift {
-    top: 200vw;
+    top: 150vw;
     height: 40vw;
     width: 40vw;
-    left: -10vw;
+    left: -15vw;
   }
 
   .third-gift {
@@ -84,6 +91,14 @@
     top: 480vw;
     height: 28vw;
     width: 28vw;
+  }
+
+  .fifth-gift {
+    display: block;
+    top: 220vw;
+    height: 16vw;
+    width: 16vw;
+    right: -6vw;
   }
 }
 </style>

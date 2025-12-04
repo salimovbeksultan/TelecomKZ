@@ -146,8 +146,8 @@ function switchLanguage() {
 
   .gifts-image {
     margin-left: 0;
-    height: 58vw;
-    width: 52vw;
+    height: 52vw;
+    width: 57.8vw;
     top: 32vw;
     right: 0;
     position: absolute;
@@ -187,6 +187,8 @@ function switchLanguage() {
     padding-left: 6vw;
     top: 65vw;
     position: absolute;
+    padding-top: 2.4vw;
+    padding-bottom: 2.4vw;
   }
 }
 </style>
