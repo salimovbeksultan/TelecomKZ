@@ -20,7 +20,11 @@ import RulesComponent from '../components/RulesComponent.vue'
 </template>
 
 <style>
-body {
+body,
+html {
   margin: 0 !important;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
 }
 </style>

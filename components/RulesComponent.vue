@@ -14,6 +14,7 @@ const getImgUrl = (imageName) => {
       <img src="../assets/eve.png" alt="eve" class="decor-branch branch-left" />
       <img src="../assets/eve-1.png" alt="eve" class="decor-branch branch-center" />
       <img src="../assets/eve-2.png" alt="eve" class="decor-branch branch-right" />
+      <img src="../assets/eve-mobile.png" alt="eve" class="decor-branch branch-mobile" />
     </div>
 
     <div class="content-container">
@@ -165,6 +166,10 @@ const getImgUrl = (imageName) => {
   font-size: 1vw;
 }
 
+.branch-mobile {
+  display: none;
+}
+
 @media (max-width: 640px) {
   .section-title {
     font-size: 8vw;
@@ -209,6 +214,14 @@ const getImgUrl = (imageName) => {
     width: 34vw;
     height: 34vw;
     top: 0;
+  }
+
+  .branch-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32vw;
   }
 }
 </style>
