@@ -19,7 +19,7 @@ function switchLanguage() {
             <span class="language-text">{{ t('other_language') }}</span>
         </div>
       </div>
-      <div class="first-row mobile-row" style="padding-top: 1vw;">
+      <div class="first-row mobile-row">
         <div class="header-text-col">
             <div class="header-text-secondary" :class="t('header.0.size')">{{ t('header.0.value') }}</div>
             <div class="header-text-secondary" :class="t('header.1.size')">{{ t('header.1.value') }}</div>
@@ -135,6 +135,10 @@ function switchLanguage() {
     cursor: pointer;
 }
 
+.mobile-row {
+  padding-top: 1vw;
+}
+
 @media (max-width: 640px) {
   .logo-image {
     width: 36vw;
@@ -181,7 +185,7 @@ function switchLanguage() {
   }
 
   .header-button {
-    width: 22wv;
+    width: 22vw;
     border-radius: 3.2vw;
     font-size: 4vw;
     padding-right: 5vw;
