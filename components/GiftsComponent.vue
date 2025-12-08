@@ -1,15 +1,15 @@
 <script setup></script>
 
 <template>
-  <img class="icon first-gift" alt="gift" src="../assets/gift.png" />
-  <img class="icon second-gift" alt="gift" src="../assets/accessory.png" />
-  <img class="icon third-gift" alt="gift" src="../assets/gift-reversed.png" />
-  <img class="icon fourth-gift" alt="gift" src="../assets/accessory-reversed.png" />
-  <img class="icon fifth-gift" alt="gift" src="../assets/gift-reversed.png" />
-  <img class="icon sixth-gift" alt="gift" src="../assets/gift.png" />
-  <img class="icon seventh-gift" alt="gift" src="../assets/accessory.png" />
-  <img class="icon eighth-gift" alt="gift" src="../assets/gift-reversed.png" />
-  <img class="icon ninth-gift" alt="gift" src="../assets/accessory.png" />
+  <img class="icon first-gift" alt="gift" src="@/assets/gift.png" />
+  <img class="icon second-gift" alt="gift" src="@/assets/accessory.png" />
+  <img class="icon third-gift" alt="gift" src="@/assets/gift-reversed.png" />
+  <img class="icon fourth-gift" alt="gift" src="@/assets/accessory-reversed.png" />
+  <img class="icon fifth-gift" alt="gift" src="@/assets/gift-reversed.png" />
+  <img class="icon sixth-gift" alt="gift" src="@/assets/gift.png" />
+  <img class="icon seventh-gift" alt="gift" src="@/assets/accessory.png" />
+  <img class="icon eighth-gift" alt="gift" src="@/assets/gift-reversed.png" />
+  <img class="icon ninth-gift" alt="gift" src="@/assets/accessory.png" />
 </template>
 
 <style scoped>

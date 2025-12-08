@@ -9,14 +9,14 @@ const { t } = useI18n()
     <div class="prizes-title" v-html="t('prizes_title')"></div>
     <div class="prizes-first-row" style="padding-top: 4vw">
       <div class="prizes-item">
-        <img class="prizes-item-circle" alt="ipad" src="../assets/ipad.png" />
+        <img class="prizes-item-circle" alt="ipad" src="@/assets/ipad.png" />
         <div class="prizes-item-box">
           <div class="prize-place">{{ t('prizes.0.place') }}</div>
           <div class="prize-name">{{ t('prizes.0.prize') }}</div>
         </div>
       </div>
       <div class="prizes-item">
-        <img class="prizes-item-circle" alt="ipad" src="../assets/earpods.png" />
+        <img class="prizes-item-circle" alt="ipad" src="@/assets/earpods.png" />
         <div class="prizes-item-box">
           <div class="prize-place">{{ t('prizes.1.place') }}</div>
           <div class="prize-name">{{ t('prizes.1.prize') }}</div>
@@ -25,21 +25,21 @@ const { t } = useI18n()
     </div>
     <div class="prizes-first-row" style="padding-top: 3vw">
       <div class="prizes-sub-item">
-        <img class="prizes-item-sub-circle" alt="ipad" src="../assets/15000-bonus.png" />
+        <img class="prizes-item-sub-circle" alt="ipad" src="@/assets/15000-bonus.png" />
         <div class="prizes-item-sub-box">
           <div class="prize-sub-place">{{ t('prizes.2.place') }}</div>
           <div class="prize-sub-name">{{ t('prizes.2.prize') }}</div>
         </div>
       </div>
       <div class="prizes-sub-item">
-        <img class="prizes-item-sub-circle" alt="ipad" src="../assets/10000-bonus.png" />
+        <img class="prizes-item-sub-circle" alt="ipad" src="@/assets/10000-bonus.png" />
         <div class="prizes-item-sub-box">
           <div class="prize-sub-place">{{ t('prizes.3.place') }}</div>
           <div class="prize-sub-name">{{ t('prizes.3.prize') }}</div>
         </div>
       </div>
       <div class="prizes-sub-item">
-        <img class="prizes-item-sub-circle" alt="ipad" src="../assets/1000-bonus.png" />
+        <img class="prizes-item-sub-circle" alt="ipad" src="@/assets/1000-bonus.png" />
         <div class="prizes-item-sub-box">
           <div class="prize-sub-place">{{ t('prizes.4.place') }}</div>
           <div class="prize-sub-name">{{ t('prizes.4.prize') }}</div>

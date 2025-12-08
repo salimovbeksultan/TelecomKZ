@@ -1,7 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const getImgUrl = (imageName) => {
   return new URL(`../assets/${imageName}`, import.meta.url).href
@@ -11,10 +11,10 @@ const getImgUrl = (imageName) => {
 <template>
   <section class="rules-wrapper">
     <div class="trees-container">
-      <img src="../assets/eve.png" alt="eve" class="decor-branch branch-left" />
-      <img src="../assets/eve-1.png" alt="eve" class="decor-branch branch-center" />
-      <img src="../assets/eve-2.png" alt="eve" class="decor-branch branch-right" />
-      <img src="../assets/eve-mobile.png" alt="eve" class="decor-branch branch-mobile" />
+      <img src="@/assets/eve.png" alt="eve" class="decor-branch branch-left" />
+      <img src="@/assets/eve-1.png" alt="eve" class="decor-branch branch-center" />
+      <img src="@/assets/eve-2.png" alt="eve" class="decor-branch branch-right" />
+      <img src="@/assets/eve-mobile.png" alt="eve" class="decor-branch branch-mobile" />
     </div>
 
     <div class="content-container">
@@ -22,35 +22,37 @@ const getImgUrl = (imageName) => {
 
       <div class="cards-wrapper">
         <div class="card">
-          <img class="card-image" :src="getImgUrl(t('first_card_image'))" alt="card-1" />
+          <img v-if="locale === 'ru'" class="card-image" src="@/assets/card-1.png" alt="card-1" />
+          <img v-else class="card-image" src="@/assets/card-1-kz.png" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.0.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.0.subtitle')"></div>
           </div>
         </div>
         <div class="card">
-          <img class="card-image" src="../assets/card-2.png" alt="card-1" />
+          <img class="card-image" src="@/assets/card-2.png" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.1.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.1.subtitle')"></div>
           </div>
         </div>
         <div class="card">
-          <img class="card-image" src="../assets/card-3.png" alt="card-1" />
+          <img class="card-image" src="@/assets/card-3.png" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.2.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.2.subtitle')"></div>
           </div>
         </div>
         <div class="card">
-          <img class="card-image" src="../assets/card-4.png" alt="card-1" />
+          <img class="card-image" src="@/assets/card-4.png" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.3.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.3.subtitle')"></div>
           </div>
         </div>
         <div class="card">
-          <img class="card-image" :src="getImgUrl(t('final_card_image'))" alt="card-1" />
+          <img v-if="locale === 'ru'" class="card-image" src="@/assets/card-5.png" alt="card-1" />
+          <img v-else class="card-image" src="@/assets/card-5-kz.png" alt="card-1" />
           <div class="card-text">
             <div class="card-title" v-html="t('rules_cards.4.title')"></div>
             <div class="card-subtitle" v-html="t('rules_cards.4.subtitle')"></div>

@@ -1,5 +1,5 @@
 <script setup>
-import '../assets/fonts/helvetica-neue/stylesheet.css'
+import '@/assets/fonts/helvetica-neue/stylesheet.css'
 import ConditionsComponent from '../components/ConditionsComponent.vue'
 import DownloadComponent from '../components/DownloadComponent.vue'
 import FooterComponent from '../components/FooterComponent.vue'

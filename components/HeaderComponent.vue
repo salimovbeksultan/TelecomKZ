@@ -13,9 +13,9 @@ function switchLanguage() {
   <section class="header-wrapper">
     <div class="header-content">
       <div class="first-row">
-        <img src="../assets/logo.svg" class="logo-image" alt="Logo"></img>
+        <img src="@/assets/logo.svg" class="logo-image" alt="Logo"></img>
         <div @click="switchLanguage" class="language-switcher">
-            <img src="../assets/lang.svg" class="language-icon" alt="lang-switcher"></img>
+            <img src="@/assets/lang.svg" class="language-icon" alt="lang-switcher"></img>
             <span class="language-text">{{ t('other_language') }}</span>
         </div>
       </div>
@@ -27,7 +27,7 @@ function switchLanguage() {
             <div class="header-text-secondary" :class="t('header.3.size')">{{ t('header.3.value') }}</div>
             <a style="text-decoration: none;" href="https://telecom.kz/ru/customer/auth/login"><div class="header-button">{{ t("download") }}</div></a>
         </div>
-        <img src="../assets/gifts.png" alt="gifts" class="gifts-image" />
+        <img src="@/assets/gifts.png" alt="gifts" class="gifts-image" />
       </div>
     </div>
   </section>
@@ -118,15 +118,15 @@ function switchLanguage() {
     text-transform: uppercase;
     font-family: 'Helvetica Neue';
     font-weight: 700;
-    padding-left: 7vw;
-    padding-right: 7vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1.4vw;
+    padding-bottom: 1.4vw;
     background-color: rgba(255, 237, 76, 1);
     color: rgba(23, 54, 183, 1);
-    font-size: 3.5vw;
-    border-radius: 3vw;
-    width: 17vw;
+    font-size: 2.7vw;
+    border-radius: 1.8vw;
+    width: 13vw;
     text-align: center;
     margin-top: 5vw;
 }
@@ -173,6 +173,7 @@ function switchLanguage() {
 
   .mobile-row {
     flex-direction: column;
+    padding-top: 3vw;
   }
 
   .header-text-col {
@@ -180,15 +181,16 @@ function switchLanguage() {
   }
 
   .header-button {
-    width: 25vw;
+    width: 22wv;
     border-radius: 3.2vw;
-    font-size: 5.3vw;
-    padding-right: 6vw;
-    padding-left: 6vw;
+    font-size: 4vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
     top: 65vw;
     position: absolute;
-    padding-top: 2.4vw;
-    padding-bottom: 2.4vw;
+    padding-top: 1.6vw;
+    padding-bottom: 1.6vw;
+    text-align: center;
   }
 }
 </style>

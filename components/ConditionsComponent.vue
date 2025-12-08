@@ -20,7 +20,7 @@ const { t } = useI18n()
 .conditions-wrapper {
   padding-top: 4vw;
   padding-bottom: 5vw;
-  background-image: url('../assets/snow.png');
+  background-image: url('@/assets/snow.png');
   background-color: rgba(220, 230, 255, 1);
 }
 

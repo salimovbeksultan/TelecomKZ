@@ -25,15 +25,15 @@ const { t } = useI18n()
         ></div>
         <div class="download-buttons">
           <a href="https://apps.apple.com/us/app/telecom-kz/id1545816005"
-            ><img class="download-button" alt="app-store" src="../assets/app-store.png" />
+            ><img class="download-button" alt="app-store" src="@/assets/app-store.png" />
           </a>
           <a href="https://play.google.com/store/apps/details?id=kz.telecom.app"
-            ><img class="download-button" alt="google-play" src="../assets/google-play.png"
+            ><img class="download-button" alt="google-play" src="@/assets/google-play.png"
           /></a>
         </div>
       </div>
-      <img class="download-qr" src="../assets/qr.png" alt="qr" />
-      <img class="download-qr-mobile" src="../assets/qr-mobile.png" alt="qr" />
+      <img class="download-qr" src="@/assets/qr.png" alt="qr" />
+      <img class="download-qr-mobile" src="@/assets/qr-mobile.png" alt="qr" />
     </div>
   </section>
 </template>
